@@ -5,13 +5,26 @@ import pandas as pd
 
 # --- 1. 페이지 기본 설정 ---
 st.set_page_config(
-    page_title="Streamlit 마법 교실",
+    page_title="Streamlit 광합성",
     page_icon="🔮",
     layout="wide"
 )
 
 # --- 2. 페이지 타이틀 ---
-st.title("Streamlit 마법 교실 🔮")
+st.title("Streamlit 광양자설 만든 레포지토리(저장소)에 streamlit_app.py 만들고 다음 내용 복붙해서 집어넣기
+
+import streamlit as st
+import pandas as pd
+
+# --- 1. 페이지 기본 설정 ---
+st.set_page_config(
+    page_title="Streamlit 광합성",
+    page_icon="🔮",
+    layout="wide"
+)
+
+# --- 2. 페이지 타이틀 ---
+st.title("Streamlit 광양자설 🔮")
 st.subheader("HTML/CSS를 활용해 멋진 효과를 만들어 봐요!")
 st.markdown("---") # 구분선
 
